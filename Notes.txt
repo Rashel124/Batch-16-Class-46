@@ -27,4 +27,15 @@ SELECT id,name FROM students;
 SELECT * FROM students WHERE id=4;
 SELECT * FROM students WHERE class='Ten';
 
+Sob somoy id dore change korte hoy: 
+UPDATE> korar rules: 
+===================
+UPDATE students SET roll=12 WHERE id = 4;
+UPDATE students SET name = "Md. Rabbi", roll = 10, class ="Five", phone ="01910907594", email="abcxxx@gmail.com", address "Mirpur Dhaka" WHERE id = 2;
 
+
+DELETE=> korar rules:
+=====================
+
+DELETE FROM students WHERE id = 2; 
+DELETE FROM students WHERE class = "Five";
